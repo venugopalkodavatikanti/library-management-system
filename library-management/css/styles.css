@@ -1,0 +1,81 @@
+.navbar {
+    color: white;
+    background-color: rgb(83, 15, 78);
+    padding: 1% 0%;
+    font-weight: bolder;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cdd4d6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-mobile-button span {
+
+    background-color: rgb(83, 15, 78);
+    color: white;
+}
+
+.text-navy {
+    color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(''); */
+}
+
+.page-heading {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: -2px 2px 0 #1c0873,
+        2px 2px 0 #1c0873,
+        2px -2px 0 #1c0873,
+        -2px -2px 0 #1c0873;
+}
+
+.btn-purple {
+    color: #ffffff;
+    background-color: rgb(83, 15, 78);
+}
+
+.btn-purple:hover {
+    color: #ffffff;
+    background-color: rgb(106, 25, 101);
+}
+
+footer {
+    background-color: rgb(83, 15, 78);
+    color: rgb(255, 255, 255);
+    padding: 0.2%;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h6 {
+    font-size: smaller;
+}
+
+.carousel .item {
+    height: 500px;
+}
+
+.carousel img {
+    max-width: 100%;
+    width: auto 9;
+    height: 600px;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
